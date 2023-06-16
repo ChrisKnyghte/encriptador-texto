@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">  
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CH1-Encriptador.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <a href="" target="_blank"> 
+            <img class="logo" src="images/Logo.svg"></a>
+    </header>
+
+    <main>
+        <article class="container">
+            <section class="seccion1">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="images/alerta.svg" alt="advertencia"/>
+                        Solo letras minúsculas y sin acentos.
+                    </span>
+                    <div class="botones">
+                        <button id="button__encriptar" class="button__encriptar">Encriptar</button>
+                        <button id="button__desencriptar" class="button__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="rigth">
+                <img id="munheco" class="munheco" src="images/Muñeco.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button__copiar bn_ocultar" id="button__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p class="creador">Developed by @ChrisCarter</p>
+        <div class="social">
+            <a href="https://github.com/ChrisKnyghte" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chris-carter-7434301a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="CH1-Encriptador.js"></script>
+</body>
+
+</html>
